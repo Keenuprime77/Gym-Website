@@ -1,0 +1,36 @@
+
+.mid {
+    flex-direction: column;
+}
+
+.btn{
+    /* flex-direction: column-reverse; */
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+}
+
+.right{
+    margin-top: 182px;
+}
+
+.navbar li{
+    margin: 8px;
+}
+
+.right {
+    font-size: 13px;
+    padding: 4px 8px;
+    /* margin: 15px; */
+}
+
+.container{
+    display: block;
+    margin: auto;
+}
+
+.form-group input {
+    width: 304px;
+}
