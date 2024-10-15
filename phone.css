@@ -13,7 +13,7 @@
 }
 
 .right{
-    margin-top: 182px;
+    margin-top: 283px;
 }
 
 .navbar li{
@@ -31,6 +31,23 @@
     margin: auto;
 }
 
-.form-group input {
-    width: 304px;
+
+
+.form-c{
+    display: block;
+    margin: auto;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.form-group{
+    display: block;
+    margin: auto;
+}
+.form-group{
+    display: block;
+    margin: auto;
+    width: 151px;
 }
