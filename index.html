@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keenu website</title>
+</head>
+<link rel="stylesheet" media="screen and (max-width:1170px)" href="phone.css">
+<!-- <link rel="stylesheet" media="screen and (max-width:1170px) and (min-width:431px)" href="tap.css"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('gym.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+
+        font-family: "Poppins", sans-serif;
+
+        font-style: normal;
+        height: 400px;
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+    }
+
+    .left img {
+        width: 50px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 19px;
+        font-size: 12px;
+        color: white;
+    }
+
+    .mid {
+        /* border: 2px solid green; */
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        position: absolute;
+        right: 24px;
+        top: 30px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 3px 5px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 3px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+    }
+
+
+    .btn:hover {
+        background-color: gray;
+    }
+
+    .container {
+        /* border: 2px solid white; */
+        margin: 106px 80px;
+        padding: 75px;
+        width: 36%;
+        border-radius: 28px;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    .form-group input {
+
+        display: block;
+        text-align: center;
+
+        width: 504px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 20px;
+        border-radius: 8px;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+    }
+
+
+    .container button {
+        display: block;
+        width: 100px;
+        margin: 15px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="gym logo.jfif">
+            <div>Keenu Fitness</div>
+        </div>
+
+        <!-- mid box for nav -->
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculater</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for botton  -->
+        <span class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </span>
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym of the indore now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your localty">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
