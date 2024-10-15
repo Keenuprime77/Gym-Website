@@ -1,22 +1,21 @@
-
 .mid {
     flex-direction: column;
 }
 
-.btn{
+.btn {
     /* flex-direction: column-reverse; */
     width: 100%;
     text-align: center;
     display: block;
     margin: auto;
-    
+
 }
 
-.right{
+.right {
     margin-top: 283px;
 }
 
-.navbar li{
+.navbar li {
     margin: 8px;
 }
 
@@ -26,27 +25,35 @@
     /* margin: 15px; */
 }
 
-.container{
+.container {
+    display: block;
+
+    margin: 50px auto;
+
+    width: 36%;
+}
+
+
+
+.form-c {
     display: block;
     margin: auto;
 }
 
+h1 {
+    font-size: 12px;
+}
 
 
-.form-c{
+
+.form-group {
     display: block;
     margin: auto;
+    width: 151px;
 }
 
-h1{
-    font-size: 20px;
-}
-
-.form-group{
-    display: block;
-    margin: auto;
-}
-.form-group{
+.form-group input {
+    font-size: 12px;
     display: block;
     margin: auto;
     width: 151px;
